@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+html{
+    height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, #root, .App{
+    min-height: 100%; /*FINALLY FIXED HEIGHT, html needed to be height, while the rest works better with min-height, idk why and i couldnt google it either */
+    /* height: fit-content; */
+    display: flex;
+    /* min-height: 100vh; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+    height: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fcc3a3;
+/* opacity: 1;
+background-image:  repeating-linear-gradient(45deg, #f09f9c 25%, transparent 25%, transparent 75%, #f09f9c 75%, #f09f9c), repeating-linear-gradient(45deg, #f09f9c 25%, #fcc3a3 25%, #fcc3a3 75%, #f09f9c 75%, #f09f9c);
+background-position: 0 0, 40px 40px;
+background-size: 80px 80px; */
+background: rgb(89,255,202), lightblue;
+background: linear-gradient(0deg, rgba(89,255,202,1) 0%, rgba(17,176,200,1) 50%, rgba(74,209,70,1) 100%); 
 }

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.cardContainer{
+    width: 100%;
+    display: flex;
+    /* grid-template-columns: repeat(1fr);
+    grid-template-rows: auto; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* flex: 1; */
+    
+}
+
+.playingcard{
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: lightgreen;
+}
+.playingcard img{
+    width: 300px;
+    aspect-ratio: 1;
+}

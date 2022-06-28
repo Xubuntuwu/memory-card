@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from "react";
+import CardContainer from "./components/CardContainer";
+import Header from "./components/Header";
 
 function App() {
+  const [currentscore, setcurrentscore] = useState(0);
+  const [bestscore, setbestscore] = useState(0);
+
+  const setcurrentScores = (newcurrentscore) =>{
+    setcurrentscore(newcurrentscore);
+    // console.log(newcurrentscore, bestscore);
+  }
+  const setbestScores = (newbestscore) =>{
+    setbestscore(newbestscore);
+    // console.log(currentscore, newbestscore);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header bestscore={bestscore} currentscore={currentscore}/>
+      <CardContainer setcurrentscores={setcurrentScores} setbestscores={setbestScores}/>
     </div>
   );
 }

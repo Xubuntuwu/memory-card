@@ -1,0 +1,32 @@
+/* 
+<div className="Header">
+    <div className="gameName">Nature Memory Card</div>
+    <div className="scores">
+        <div id="bestscore">{props.bestscore}</div>
+        <div id="currentscore">{props.currentscore}</div>
+    </div>
+</div> 
+*/
+.Header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px 15px 10px;
+}
+.explanation{
+    font-style: oblique;
+    color: gray;
+    font-weight: bold;
+    font-size: small;
+    /* font-size: small; */
+}
+.gameName{
+    font-size: x-large;
+    font-weight: bold;
+}
+.scores{
+    font-size: larger;
+    font-weight: bolder;
+}
+#currentscore{
+    font-size: xx-large;
+}

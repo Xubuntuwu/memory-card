@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.e0f4b7ef.css",
+    "main.js": "/memory-card/static/js/main.87e6c330.js",
+    "static/media/snow.jpg": "/memory-card/static/media/snow.bd403548cb7dd4a12e5c.jpg",
+    "static/media/river.jpg": "/memory-card/static/media/river.d2d14664b8c273c7b325.jpg",
+    "static/media/sea.jpg": "/memory-card/static/media/sea.a2f6c28d16552fb3ca88.jpg",
+    "static/media/rain.jpg": "/memory-card/static/media/rain.c3c448ada656c7523d40.jpg",
+    "static/media/night.jpg": "/memory-card/static/media/night.39e3bc07e9d76e396d39.jpg",
+    "static/media/tornado.jpg": "/memory-card/static/media/tornado.60a743e3f4f1d9ac21e3.jpg",
+    "static/media/morning.jpg": "/memory-card/static/media/morning.4502b6d160e4aeec4094.jpg",
+    "static/media/stars.jpg": "/memory-card/static/media/stars.ad4d75f115ba10881dde.jpg",
+    "static/media/sky.jpg": "/memory-card/static/media/sky.7b15934c4d16f67f36a4.jpg",
+    "static/media/lightning.jpg": "/memory-card/static/media/lightning.96565e91646a1983dcbf.jpg",
+    "static/media/sun.jpg": "/memory-card/static/media/sun.9f7cbff80af9b2bb7993.jpg",
+    "static/media/moon.jpg": "/memory-card/static/media/moon.202e72fc6e7f6b8ee2de.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.e0f4b7ef.css.map": "/memory-card/static/css/main.e0f4b7ef.css.map",
+    "main.87e6c330.js.map": "/memory-card/static/js/main.87e6c330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0f4b7ef.css",
+    "static/js/main.87e6c330.js"
+  ]
+}
